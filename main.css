@@ -1,0 +1,16 @@
+p{
+    width: 400px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right,green,hotpink,violet,gold,green);
+    border-image-slice: 1%;
+    text-align: center;
+    padding: 25px;
+
+}
+.container{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    background-color: royalblue;
+}
